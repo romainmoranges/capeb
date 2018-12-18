@@ -1,0 +1,16 @@
+.bg {
+    background: url(../img/background.jpg);
+}
+
+.rm-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#FFF;
+   
+}
+
+.rm-left .row p{
+    margin: 15px 0;
+    font-size: 1.2em;
+}
