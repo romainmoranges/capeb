@@ -5,6 +5,7 @@ p{
 
 .bg {
     background: url(../img/background.jpg);
+    background-position: center;
 }
 
 .rm-left {
@@ -17,11 +18,11 @@ p{
 
 .accroche{
     text-align: center;
+    margin: 15px auto;
 }
 
 .rm-badge{
     margin : 10px 0;
-    text-align: center;
 }
 
 .rm-form {
@@ -29,8 +30,49 @@ p{
 
 }
 
+.social {
+    padding: 50px 0;
+    background: #1b1b1b;
+}
+
+/* .social footer div {
+    color: white;
+    font-size: 1.6em;
+} */
+
+.social a{
+    color: #FFF;
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    line-height: 2.5em;
+    height: 2.5em;
+    width: 2.5em;
+    margin:auto;
+}
+
+/* !! Modification de classe bootstrap !! */
+
+.border{
+    border:3px solid #FFF !important;
+}
+
+.banderolle {
+    padding: 30px 0;
+    background: black;
+}
+
+.banderolle footer h3{
+    text-align: center;
+    color: #FFF
+}
+
 @media (max-width: 575px) { 
     p {
         font-size: 1.0em;
+    }
+
+    .rm-badge {
+        text-align: center;
     }
 }
