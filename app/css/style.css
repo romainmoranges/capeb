@@ -40,15 +40,19 @@ p{
     font-size: 1.6em;
 } */
 
-.social a{
+.social a {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.social a i{
     color: #FFF;
-    display: block;
     text-align: center;
     font-size: 2em;
     line-height: 2.5em;
     height: 2.5em;
     width: 2.5em;
-    margin:auto;
 }
 
 /* !! Modification de classe bootstrap !! */
@@ -65,6 +69,10 @@ p{
 .banderolle footer h3{
     text-align: center;
     color: #FFF
+}
+
+.banderolle footer h3 span {
+    font-weight: bold;
 }
 
 @media (max-width: 575px) { 
